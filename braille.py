@@ -7,7 +7,7 @@
 # Braille Library
 
 # # Dependencies
-# 1) sudo apt-get install pyaudio
+# 1) sudo apt-get install pyaduio
 # 3) sudo apt-get install espeak 
 # 2) pip3 install SpeechRecognition
 # 3) pip3 install numpy
@@ -200,4 +200,4 @@ def imageToBraille(img):
     textToBraille(imageToText(img))
 
 
-imageToText("puretext.jpeg")
+#imageToText("puretext.jpeg")
